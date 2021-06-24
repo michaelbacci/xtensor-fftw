@@ -21,7 +21,7 @@ if(FFTW_USE_FLOAT)
 endif()
 
 if(FFTW_USE_DOUBLE)
-    add_definitions(-DXTENSOR_FFTW_USE_DOUBLE)s
+    add_definitions(-DXTENSOR_FFTW_USE_DOUBLE)
 endif()
 
 if(FFTW_USE_LONG_DOUBLE AND NOT MSVC)
